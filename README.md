@@ -23,4 +23,4 @@ Este projeto é uma aplicação web simples que fornece informações sobre o te
 
 1. Cole esse link no seu Google
    ```bash
-   git clone https://github.com/seuusuario/previsao-do-tempo.git
+   https://matheus2570.github.io/site_previsao_tempo/
