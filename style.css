@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1495757450029-09dbedacbc36?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.2vw;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocoMaior {
+    width: 40%; 
+    height: auto;
+    background-color: rgba(14, 13, 13, 0.918);
+    padding: 2vw;
+    border-radius: 20px;
+}
+
+.blocoPesquisa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputPesquisa {
+    border-radius: 10px;
+    font-size: 2vw; 
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: white;
+    background-color: #7c7c7c2b;
+    width: 80%;
+}
+.inputPesquisa::placeholder {
+    color: rgba(235, 231, 231, 0.911);
+}
+
+.botaoPesquisa {
+    background-color: #7c7c7c2b;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.7s;
+}
+
+.botaoPesquisa:hover {
+    background-color: #807d7d;
+}
+
+.bx-spin {
+    font-size: 1.7vw; 
+}
+
+.blocoElementos {
+    margin-top: 15px;
+}
+
+.cidade {
+    font-size: 1.7vw; 
+    color: white;
+font-weight: bold;
+}
+
+.temperatura {
+    font-size: 1.5vw; 
+    color: white;
+    margin-top: 15px;
+    
+}
+
+.blocoIconeDoTempo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.imagemPrevisao {
+    width: 5vw; 
+}
+
+.textoPrevisao {
+    margin-left: 1.1vw;
+    color: white;
+    font-size: 1.5vw; 
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: white;
+    font-size: 1.5vw; 
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .blocoMaior{
+        width: 70%; 
+    }
+
+    .inputPesquisa {
+        font-size: 3vw; 
+    }
+    .bx-spin {
+        font-size: 3.7vw; 
+    }
+    .cidade {
+        font-size: 3vw;
+    }
+    .temperatura {
+        font-size: 3vw; 
+    }
+    .imagemPrevisao {
+        width: 13vw; 
+    }
+    .textoPrevisao {
+        font-size: 3vw;
+    }
+    .umidade {
+        font-size: 3vw; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .blocoMaior{
+        width: 90%;
+        height: auto;
+    }
+    .inputPesquisa {
+        font-size: 5vw;
+    }
+    .bx-spin {
+        font-size: 5vw;
+    }
+    .cidade {
+        font-size: 5vw;
+    }
+    .temperatura {
+        font-size: 5vw;
+    }
+    .imagemPrevisao {
+        width: 16vw;
+    }
+    .textoPrevisao {
+        font-size: 5vw;
+    }
+    .umidade {
+        font-size: 5vw;
+    }
+}

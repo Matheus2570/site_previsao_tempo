@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <main class="blocoMaior">
+
+        <div class="blocoPesquisa">
+            <input class="inputPesquisa" type="text" placeholder="Digite o nome da cidade">
+            <button class="botaoPesquisa" onclick="cliqueiNoBotao()">
+                <i class='bx bx-search-alt bx-spin'></i>
+            </button>
+        </div>
+
+
+        <div class="blocoElementos">
+            <h2 class="cidade"></h2>
+
+            <p class="temperatura"></p>
+
+            <div class="blocoIconeDoTempo" style="display: none;"> <!-- Inicialmente ocultado -->
+                <img class="imagemPrevisao" src="" alt="Icone do Tempo">
+                <p class="textoPrevisao"></p>
+            </div>
+
+            <p class="umidade"></p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
