@@ -19,7 +19,7 @@ Este projeto é uma aplicação web simples que fornece informações sobre o te
   - Umidade
 - Design responsivo para diferentes tamanhos de tela (PC, tablets e dispositivos móveis).
 
-## Como ver
+## Como Vizualizar
 
 1. Cole esse link no seu Google
    ```bash
