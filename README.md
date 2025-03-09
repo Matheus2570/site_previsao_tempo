@@ -1,13 +1,13 @@
-# Previsão do Tempo
+# Previsão do Tempo 🌧
 Este projeto é uma aplicação web simples que fornece informações sobre o tempo em uma cidade especificada pelo usuário. Utilizando a API OpenWeather, ele permite que os usuários consultem a temperatura atual, descrição do clima e umidade relativa do ar.
 
-## Tecnologias Utilizadas ✅
+## 🛠️ Tecnologias Utilizadas 
 - HTML
 - CSS
 - JavaScript
 - API OpenWeather
 
-## Funcionalidades
+## ✅ Funcionalidades
 - Busca de clima para qualquer cidade.
 - Exibição de informações como:
   - Nome da cidade
@@ -16,7 +16,7 @@ Este projeto é uma aplicação web simples que fornece informações sobre o te
   - Umidade
 - Design responsivo para diferentes tamanhos de tela (PC, tablets e dispositivos móveis).
 
-## Como Visualizar 📌
+## 📌 Como Visualizar 
 - Lembre-se de escrever corretamente e com acentos, exemplo: São Paulo
 1. Cole esse link no seu Google:
    ```bash
